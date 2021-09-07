@@ -1,0 +1,39 @@
+body {
+  background-color: #F8F8F8;
+  color: gray;
+}
+
+.gray-color {
+  background-color: #F8F8F8;
+}
+
+.green-color {
+  color: #39BF81;
+}
+
+.blue-color {
+  color: #03c3d8;
+}
+
+button {
+  border-radius: 30px;
+  border-color: #39BF81;
+  color: #39BF81;
+  background-color: white;
+  padding: 0.5vh 2vh;
+  margin: 3px;
+  font-weight: 700;
+  font-size: small;
+}
+
+.font-size {
+  font-size: large;
+}
+
+a {
+  color: gray;
+}
+
+.container-border {
+  border-radius: 15px;
+}
