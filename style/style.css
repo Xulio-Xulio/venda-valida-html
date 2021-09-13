@@ -1,6 +1,34 @@
+/* global resets */
 body {
   background-color: #F8F8F8;
   color: gray;
+}
+
+a {
+  color: gray;
+}
+
+button {
+  border-radius: 30px;
+  border-color: #39BF81;
+  color: #39BF81;
+  background-color: white;
+  padding: 0.5vh 3vh;
+  margin: 3px;
+  font-weight: 700;
+  font-size: small;
+}
+
+button:hover {
+  color: white;
+  background-color: #39BF81;
+  
+}
+
+/* global styles */
+
+.font-size {
+  font-size: large;
 }
 
 .gray-color {
@@ -15,25 +43,59 @@ body {
   color: #03c3d8;
 }
 
-button {
-  border-radius: 30px;
-  border-color: #39BF81;
-  color: #39BF81;
-  background-color: white;
-  padding: 0.5vh 2vh;
-  margin: 3px;
-  font-weight: 700;
-  font-size: small;
+/* nav styles */
+
+.nav-border {
+  box-shadow: 5px 5px #c5c5c53a;
 }
 
-.font-size {
-  font-size: large;
-}
-
-a {
-  color: gray;
-}
+/* body styles */
 
 .container-border {
   border-radius: 15px;
+  box-shadow: 5px 5px #c5c5c53a;
+}
+
+.row-size {
+  width: 50%;
+}
+
+.small-size {
+  font-size: small;
+}
+
+/* footer styles */
+
+.social-media-button {
+  border-radius: 100%;
+  border-color: rgb(202, 202, 202);
+  color: rgb(104, 104, 104);
+  background-color: white;
+  padding: 10px 10px 7px;
+  margin-right: 5vh;
+}
+
+.social-media-button:hover {
+  background-color: rgba(155, 155, 155, 0.288);
+}
+
+/* pop-up */
+
+.pop-up-wrap {
+  position: relative;
+}
+.pop-up-wrap .pop-up-content {
+  display: none;
+  position: absolute;
+  border: 2px solid rgba(184, 184, 184, 0.445);
+  border-radius: 5px;
+  width: 50%;
+  bottom: 5%;
+  left: 6%;
+  margin-left: 60%;
+  background-color: #fff;
+  padding: .5em;
+}
+.pop-up-wrap:hover .pop-up-content {
+  display: block;
 }
